@@ -1,0 +1,25 @@
+﻿body {
+    background-color: gray;
+}
+
+.menuSuperior {
+    height: 100px;
+    width: 100%;
+}
+
+.contenedorHerramienta {
+    display: table;
+}
+
+    .contenedorHerramienta > div:last-child {
+        color: red;
+    }
+
+
+.icono {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0 auto;
+    cursor: pointer;
+}

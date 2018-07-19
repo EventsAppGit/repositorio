@@ -1,0 +1,162 @@
+﻿body, html {
+    padding: 0px 0px;
+    margin: 0px;
+    /*height: 100%;*/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    /*font-family: 'Proxima Nova Regular';*/
+    /*text-align: center;*/
+    /*overflow: hidden;
+    overflow-x: hidden;*/
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.contenedor {
+    width: 100%;
+    /*height: calc(100% + 80px);*/
+    background-color: #9e9e9e0d;
+    padding: 5px 0 45px 0;
+}
+
+.header {
+    height: 40px;
+    display: table;
+    width: 100%;
+}
+
+.atras_principal {
+    display: none;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+    .atras_principal > div {
+        display: table;
+    }
+
+.nom_event {
+    display: table;
+    margin: 0 auto;
+}
+
+.contenido {
+}
+
+.cont_evento {
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+    display: table;
+    height: 270px;
+    background-color: #ffffff;
+    margin: 10px;
+    max-width: 400px;
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(128,125,128,0.51);
+    -moz-box-shadow: inset 0px 0px 0px 2px rgba(128,125,128,0.51);
+    box-shadow: inset 0px 0px 0px 2px rgba(128,125,128,0.51);
+}
+
+.image_bann {
+    height: 160px;
+    width: 100%;
+    display: table;
+}
+
+    .image_bann img {
+        width: 100%;
+        height: 100%;
+    }
+
+.info_bann {
+    height: 110px;
+    width: 100%;
+    display: table;
+}
+
+    .info_bann > div {
+    }
+
+.fecha_bann {
+    display: table;
+    height: 100%;
+    width: 20%;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    .fecha_bann > div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+        .fecha_bann > div > div {
+            margin: 0 auto;
+            display: table;
+            height: 42px;
+        }
+
+.fecha_mes {
+    color: red;
+}
+
+.fecha_dia {
+    font-size: 18px;
+    padding: 5px 0 0 0;
+}
+
+.texto_bann {
+    height: 100%;
+    width: 80%;
+    font-size: 10px;
+    padding: 10px;
+    height: 42px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.titulo_bann {
+    height: 30%;
+    font-size: 14px;
+}
+
+.resumen_bann {
+    font-size: 12px;
+}
+
+.loca_bann {
+    font-size: 10px;
+    padding: 4px 0;
+}
+
+.dentro_evento {
+    display: none;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    padding: 10px 0;
+    max-width: 410px;
+}
+
+    .footer > div {
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 30px;
+        text-align: center;
+    }
+
+    .footer img {
+        height: 30px;
+    }
