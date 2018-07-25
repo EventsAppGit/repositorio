@@ -1,0 +1,42 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Events</Name>
+    <ProjectGuid>c849a6ff-66c0-43f2-9995-8e408142dd82</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>CursoPHP</AssemblyName>
+    <ProjectHome />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="comprueba_login.php" />
+    <Compile Include="datos_conexion.php" />
+    <Compile Include="entrada_eventos.php" />
+    <Compile Include="formulario_registro.php" />
+    <Compile Include="Insertar.php" />
+    <Compile Include="login.php" />
+    <Compile Include="recJSON.php" />
+    <Compile Include="usuarios_registrados.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="javascript\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\estilodash.css" />
+    <Content Include="css\general.css" />
+    <Content Include="javascript\ajustar.js" />
+    <Content Include="javascript\dashboard.js" />
+    <Content Include="javascript\funcional.js" />
+    <Content Include="javascript\general.js" />
+    <Content Include="javascript\registrado.js" />
+  </ItemGroup>
+</Project>

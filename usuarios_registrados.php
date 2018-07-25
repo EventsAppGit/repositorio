@@ -23,7 +23,7 @@
 ?>
 
     <h1>bienvenidos usuarios</h1>
-    <p>Info solo usuarios registrados</p>
+    <p>Info solo usuarios registradossssssssss</p>
     
     <div>Apreta <p id="formulario" style="cursor: pointer; color: blue;">AQUÍ<p> para ir al formulario</div>
 
