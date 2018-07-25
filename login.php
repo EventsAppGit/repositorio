@@ -4,7 +4,7 @@
     <title></title>
 </head>
 <body>
-    <h1 align="center">Introduce tus datos</h1>
+    <h1 align="center">Introduce credenciales</h1>
     <form align="center" action="comprueba_login.php" method="post" autocomplete="off">
         <table align="center">
             <tr>

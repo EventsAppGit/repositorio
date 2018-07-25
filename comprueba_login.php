@@ -2,7 +2,12 @@
 
 try{
 
-$base = new PDO("mysql: host=localhost; dbname=eventapp", "root", "");
+$servername = "rds-mysql-eventapp.c15lh7ap1emq.eu-west-3.rds.amazonaws.com";
+$username = "MasterUserName";
+$password = "07263694h";
+
+$base = new PDO("mysql:host=$servername;port=3306;dbname=EventsUsuarios", $username, $password); 
+
 
 $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 

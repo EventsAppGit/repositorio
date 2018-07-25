@@ -18,6 +18,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="comprueba_login.php" />
+    <Compile Include="conexion_usuario.php" />
     <Compile Include="datos_conexion.php" />
     <Compile Include="entrada_eventos.php" />
     <Compile Include="formulario_registro.php" />

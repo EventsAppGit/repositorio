@@ -4,7 +4,7 @@ require("datos_conexion.php");
 
 //$conexion=mysqli_connect($db_host, $db_usuario, $db_contra/*, $db_nombre*/);
 
-$conexion = mysqli_connect($db_host, $db_usuario, $db_contra);
+$conexion = mysqli_connect($servername, $username, $password);
 if (!$conexion) {
 die('No es pot conectar: ' . mysql_error());
 }
@@ -16,7 +16,7 @@ if(mysqli_connect_errno()){
     exit();  
 };
 
-mysqli_select_db($conexion, $db_nombre) or die ("No se encuentra la BBDD");
+mysqli_select_db($conexion, $dbname) or die ("No se encuentra la BBDD");
 
 mysqli_set_charset($conexion, "utf8");
 
