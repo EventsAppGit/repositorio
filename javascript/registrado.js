@@ -2,6 +2,6 @@
 
     $("#formulario").click(function () {
 
-        window.location.href = 'formulario_registro.php';
+        window.location.href = 'formulario_eventos.php';
     });
 });

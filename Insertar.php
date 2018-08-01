@@ -9,13 +9,13 @@
 <body>
 <?php 
 
-    session_start();
+   // session_start();
 
-    if (!isset($_SESSION["usuario"])){
+   // if (!isset($_SESSION["usuario"])){
     
-    header("location:login.php");
+   // header("location:login.php");
 
-    }
+  //  }
     
 
 

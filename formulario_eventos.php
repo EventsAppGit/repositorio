@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>Documento sin título</title>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="javascript/registroevento.js"></script>
 <style>
 
 h1{
@@ -32,19 +34,19 @@ body{
 <body>
 <?php 
 
-    session_start();
+  //  session_start();
 
-    if (!isset($_SESSION["usuario"])){
+  //  if (!isset($_SESSION["usuario"])){
     
-    header("location:login.php");
+  //  header("location:login.php");
 
-    }
+ //   }
     
 
 
 ?>
 <h1>Registre d'EVENTS <br> Prova funcional </h1>
-<form name="form1" method="get" action="Insertar.php">
+<form id="form_evento" name="form1" method="get" action="Insertar.php">
   <table border="0" align="center">
     <tr>
       <td>NOMBRE ACTIVDAD</td>
@@ -81,8 +83,7 @@ body{
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td align="center"><input type="submit" name="enviar" id="enviar" value="Enviar"></td>
-      <td align="center"><input type="reset" name="Borrar" id="Borrar" value="Borrar"></td>
+      <td align="center"><input type="submit" name="enviar" id="enviar" value="Enviar" disabled="true"></td>
     </tr>
   </table>
 </form>
